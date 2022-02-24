@@ -1,0 +1,119 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* MAIN */
+main {
+  width: 100%;
+  height: 100vh;
+}
+
+/* MAIN CONTAINER */
+.container-content {
+  padding: 20px 200px;
+  background: url(../img/fundo2.png);
+  
+}
+/* NAV  WITH LOGO */
+.container-content .nav-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* NAV WITHOUT LOGO */
+.container-content .nav-content ul {
+  list-style: none;
+  display: flex;
+  font-size: 20px;
+}
+
+.container-content .nav-content li{
+  margin-right: 20px;
+  
+}
+
+.container-content .nav-content a{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.753);
+  transition: .5s;
+  
+}
+
+.container-content .nav-content a:hover{
+  color: black;
+}
+
+/* MAIN IMG */
+
+.main-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.main-img > img{
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* ABOUT */
+
+.text-content{
+  padding: 0 100px;
+  text-align: justify;
+  margin-bottom: 20px;
+}
+.text-content h2{
+  margin-bottom: 20px;
+}
+
+/* FOOTER */
+
+.copy{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bolder;
+}
+
+
+/* ABOUT PAGE */
+
+.text-content-about{
+    padding: 0 100px;
+    text-align: justify;
+    margin-top: 150px;
+  }
+
+.text-content-about h2 {
+  margin: 20px;
+}
+
+.text-content-about ol {
+  padding-left: 15px;
+  text-align: justify;
+   
+}
+  
+/* CONTACT PAGE */
+
+.text-content-contact {
+  padding: 0 100px;
+  text-align: justify;
+  margin-top: 150px;
+}
+
+.text-content-contact h2 {
+  margin: 20px;
+}
+
+.text-content-contact > form > input,
+.text-content-contact > form > textarea{
+  margin-bottom: 10px;
+}
