@@ -1,5 +1,8 @@
 <div align="center"><h1>Modelo - Anna Bella Oficial</h1></div>
 
+![Project Anna Bella Model](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/2-Projeto-Anna-Bella/assets/img/anna-bella-layout.JPG)
+
+
 ---
 
 <div align="center"><h2>O projeto 💻</h2></div>
