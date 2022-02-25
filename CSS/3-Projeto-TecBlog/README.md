@@ -1,6 +1,6 @@
 <div align="center"><h1>TecBlog - Seu blog de tecnologia!</h1></div>
 
-![]()
+![TecBlog Project](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/3-Projeto-TecBlog/made-alone/assets/img/tecblog-layout.JPG)
 
 
 ---
