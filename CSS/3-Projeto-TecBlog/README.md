@@ -1,6 +1,6 @@
 <div align="center"><h1>TecBlog - Seu blog de tecnologia!</h1></div>
 
-![TecBlog Project](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/3-Projeto-TecBlog/made-alone/assets/img/tecblog-layout.JPG)
+![TecBlog Project]()
 
 
 ---
@@ -15,6 +15,8 @@ Consiste em um blog de notícias sobre tecnologia. <br>
 
 Reforçando conhecimento em:
 
- - [x] Position: absolute / relative/ static e fixed;
- - [x] Float;
+ - [x] Uso de larguras fixas;
+ - [x] Estruturação de um blog;
  - [x] Formatação básica em CSS;
+ - [x] Utilização de elementos flutuantes;
+ - [x] Estilizações padrões a fim de reduzir a escrita de código.

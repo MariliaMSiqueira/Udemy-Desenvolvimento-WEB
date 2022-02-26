@@ -1,0 +1,234 @@
+*{
+  margin: 0;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+/* COLORS */
+
+:root{
+  --y: rgba(255, 145, 0, 0.849);
+  --header-color: rgb(255, 145, 0);
+  --w: #fff;
+  --r: rgba(255, 0, 0, 0.452);
+  --bg: #eceaea;
+  --grey: rgba(156, 155, 155, 0.747);
+  --black: #000;
+}
+
+body{
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--bg);
+}
+
+/* ========== LINKS */
+
+a:link, a:visited{
+  color: var(--black);
+}
+
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+  padding: 5px;
+  margin: 10px 0;
+}
+
+/* ======== HEADER */
+
+#header{
+  background-color: var(--header-color);
+  padding: 15px;
+  text-align: center;
+}
+
+#logo{
+  padding: 10px; 
+}
+
+#logo h1{
+  font-size: 2.5em;
+}
+
+#logo h1 span{
+  color: var(--w);
+}
+
+#logo h1::after {
+  content: "";
+  border: 1px solid var(--r);
+  display: block;
+  position: absolute;
+  text-align: center;
+  width: 4%;
+  left: 48%;
+  margin: 0;
+}
+
+/* ========== MENU HEADER */
+#menu ul{
+  margin: 5px 0;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#menu ul li a{
+  color: var(--w);
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.2em;
+  transition: .5s;
+}
+
+#menu ul li a:hover{
+  color: var(--black);
+  padding: 20px;
+}
+
+/* ========== MAIN AREA */
+/* SEM RESPONSIVIDADE */
+/* WIDTH PAI 920PX */
+#main-area{
+  width: 920px;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+
+/* ========== POST AREA */
+/* WIDTH FILHOS 660PX + 240PX = 900PX // 20px PARA SEPARÁ-LOS*/
+
+#post-area{
+  width: 660px;
+  float: left;
+}
+/* ========== POST */
+.post{
+  padding: 20px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  background-color: var(--w);
+  margin-bottom: 10px;
+}
+
+.post > img{
+  width: 620px;
+  border-radius: 10px;
+}
+
+.post > p {
+  margin: 8px 0;
+  text-align: justify;
+}
+
+.post > a{
+  color: var(--y);
+  font-weight: 600;
+  transition: .5s;
+}
+
+.post > a:hover{
+  color: var(--black);
+}
+
+.post > h2{
+  color: var(--y);
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.post > span {
+  font-size: 0.8em;
+  color: var(--grey);
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+  text-align: center;
+}
+
+.post > span::after{
+  width: 10%;
+  content: "";
+  border: 1px solid var(--r);
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+}
+
+.post::after{
+  width: 100%;
+  content: "";
+  display: block;
+  border: 1px solid var(--grey);
+  margin-top: 30px;
+}
+
+
+/* ========== ASIDE AREA */
+
+#aside-area{
+  width: 240px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  float: right;
+}
+
+.aside-content{
+  background-color: var(--w);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.aside-content > h3{
+  background-color: var(--y);
+  color: var(--black);
+  padding: 8px;
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+/* ========== ASIDE POST */
+
+.aside-post > a {
+  color: var(--y);
+  font-weight: 700;
+  transition: .5s;
+  display: block;
+}
+.aside-post > a:hover{
+  color: var(--black);
+}
+
+.aside-post > p,
+.aside-post > a{
+  font-size: .9em;
+  padding: 5px;
+
+}
+
+.aside-post::after{
+  display: block;
+  content: "";
+  border: 1px dotted var(--grey);
+  width: 100%;
+  margin: 10px 0;
+}
+
+
+/* ========== FOOTER */
+/* CLEAR PARA QUE O FLUXO FLOAT SEJA LIMPO */
+#footer{
+  background-color: var(--grey);
+  text-align: center;
+  padding: 15px;
+  clear: both;
+  color: var(--w);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
