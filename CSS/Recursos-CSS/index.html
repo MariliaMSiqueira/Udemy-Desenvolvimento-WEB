@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Recursos CSS</title>
+</head>
+<body>
+  <div class="container d-flex justify-content-center mt-5">
+  <div class="col-12">
+    <div class="row">
+      
+        <table class="table table-striped table-bordered table-hover">
+          <thead class="thead-dark text-center">
+            <tr>
+              <th scope="col" colspan="3"><h1>Seletores CSS</h1></th>
+            </tr>
+          </thead>
+          <thead class="thead-dark text-center">
+            <tr>
+              <th scope="col">SELETOR</th>
+              <th scope="col">SIGNIFICADO</th>
+              <th scope="col">EXEMPLO</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              
+              <td class="red">Seletor universal</td>
+              <td>Aplica-se em todos os elementos no documento.</td>
+              <td><code>*{}</code> <br>
+              Seleciona todos os elementos da página.</td>
+            </tr>
+            <tr>
+              
+              <td class="red">Seletor de texto</td>
+              <td>Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto.</td>
+              <td><code>h1, h2, h3{}</code> <br>
+              Seleciona os elementos <code>h1, h2 e h3</code></td>
+            </tr>
+            <tr>
+              
+              <td class="red">Seletor de ID</td>
+              <td>Seleciona um elemento cujo atributo ID tem o valor especificado após o simbolo #.</td>
+              <td><code>#XXX{}</code> <br>
+              Selecionao elemento cujo o atributo ID é XXX</td>
+            </tr>
+              <tr>
+              
+                <td class="red">Seletor de class</td>
+                <td>Seleciona um elemento cujo atributo <code>class</code> tem o valor especificado depois do ponto.</td>
+                <td><code>.XXX{}</code> <br>
+                Seleciona qualquer elemento cujo atributo class tem o valor <code>"XXX"</code></td>
+              </tr>
+              <tr>
+              
+              <td class="red">Seletor de filho</td>
+              <td>Seleciona um elemento que é filho direito de outro.</td>
+              <td><code>li > a{}</code> <br>
+              Seleciona quaisquer elementos de <code>a</code> que são filhos de um elemento <code>li</code> (mas não todos os elemento na página)</td>
+            </tr>
+            <tr>
+              
+              <td class="red">Seletor de descendente</td>
+              <td>Seleciona um elemento que é descendente de outro elemento especificado (e não apenas filho direito desse elemento).</td>
+              <td><code>p a{}</code> <br>
+              Seleciona quaisquer elementos <code>a</code> que residem dentro de um elemento <code>p</code>, mesmo se houver outros elementos aninhados entre eles.</td>
+            </tr>
+            <tr>
+              
+              <td class="red">Seletor de irmão adjacente</td>
+              <td>Seleciona um elemento que é o irmão próximo de outro.</td>
+              <td><code>h1 + p{}</code> <br>
+              Seleciona o primeiro elemento <code>p</code> depois de qualquer elemento <code>h1</code> (mas não outros elementos p).</td>
+            </tr>
+            <tr>
+              
+              <td class="red">Seletor de irmão geral</td>
+              <td>Seleciona um elemento que é um irmão de outro, embora ele não precise ser o elemento diretamente precedente.</td>
+              <td><code>h1 ~ p{}</code> <br>
+              Se houver dois elementos <code>p</code> que fossem irmãos de um elemento <code>h1</code>, essa regra aplica-se ao dois.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</html>
