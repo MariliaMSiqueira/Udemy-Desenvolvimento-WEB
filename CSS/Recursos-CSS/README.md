@@ -1,6 +1,6 @@
 <div align="center"><h1>Recursos CSS</h1></div>
 
-![photos]()
+![photos](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/Recursos-CSS/assets/img/table-seletores.JPG)
 
 
 ---
