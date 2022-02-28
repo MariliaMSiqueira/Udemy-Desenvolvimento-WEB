@@ -1,6 +1,6 @@
 <div align="center"><h1>Barra de Navegação com Abas</h1>
 
-![nav]()
+![nav](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/6-Mini-Projeto-Barra-Navegacao-Abas/img/layout.gif)
 
 
 </div>
