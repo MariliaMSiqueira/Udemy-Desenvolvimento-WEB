@@ -1,6 +1,6 @@
 <div align="center"><h1>Barra de Navegação Horizontal</h1>
 
-![nav active]()
+![nav active](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/5-Mini-Projeto-Barra-Navegacao-Horizontal/img/layout.gif)
 
 
 </div>
