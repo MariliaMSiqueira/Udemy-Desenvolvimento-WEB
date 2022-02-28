@@ -10,6 +10,19 @@ body{
   height: 100vh;
 }
 
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2::after{
+  border: 1px solid red;
+  content: "";
+  display: block;
+  width: 20%;
+  margin: 5px auto;
+}
+
 a:link, a:visited{
   text-decoration: none;
   color: #000;
@@ -28,7 +41,7 @@ ul li{
 }
 
 #nav ul li a{
-  background: url(../img/menu.png);
+  background: #f7b600 url(../img/menu.png);
   display: block;
   font-weight: 600;
   height: 40px;
@@ -38,5 +51,20 @@ ul li{
 
 #nav ul li a:hover{
   color: #fff;
+  background-color: #f99200;
   background-position: right bottom;
 }
+
+/* ACTIVE LINK PAGE */
+
+#home .home a,
+#about .about a,
+#services .services a,
+#news .news a,
+#contact .contact a
+{
+  color: #fff;
+  background-color: #f99200;
+  background-position: right bottom;
+}
+
