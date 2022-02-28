@@ -2,9 +2,9 @@
 
 ![nav](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/4-Mini-Projeto-Barra-Navegacao-Vertical/img/layout-nav.gif)
 
----
 
-![nav active]()
+
+![nav active](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/4-Mini-Projeto-Barra-Navegacao-Vertical/img/layout-nav-active.gif)
 
 
 </div>
