@@ -1,0 +1,86 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+}
+
+/* GERAIS */
+/* LINKS */
+a:link,
+a:visited{
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+/* CONTAINER */
+.container{
+  width: 600px;
+  margin: 50px;
+}
+
+span{
+  font-weight: bolder;
+}
+
+/* TITLE */
+h2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2::after{
+  content: "";
+  display: block;
+  border: 1px solid red;
+  width: 8%;
+  margin: 3px auto;
+}
+/* LIST/ MENU */
+
+ul {
+  list-style-type: none;
+}
+
+ul li{
+ 
+  float: left;
+  background: url(../img/aba-direita.png) no-repeat top right;
+}
+
+ul li a{
+  display: block;
+  padding: 0 2em;
+  line-height: 3em;
+  background: url(../img/aba-esquerda.png) no-repeat top left;
+}
+
+ul li a:hover{
+  color: #894a1f;
+}
+
+
+/* ACTIVE PAGE */
+#home .home,
+#about .about,
+#services .services,
+#news .news,
+#contact .contact{
+color: #894a1f;
+background: url(../img/aba-direita-atual.png) no-repeat top right;
+}
+
+#home .home a,
+#about .about a,
+#services .services a,
+#news .news a,
+#contact .contact a{
+  color: #894a1f;
+  background: url(../img/aba-esquerda-atual.png) no-repeat top left;
+}
