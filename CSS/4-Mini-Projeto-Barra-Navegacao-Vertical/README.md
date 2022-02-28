@@ -1,6 +1,8 @@
-<div align="center"><h1>Barra de navegação vertical</h1></div>
+<div align="center"><h1>Barra de navegação vertical</h1>
 
 ![nav](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/4-Mini-Projeto-Barra-Navegacao-Vertical/img/layout-nav.gif)
+
+</div>
 
 
 ---
