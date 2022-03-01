@@ -1,6 +1,6 @@
 <div align="center"><h1>Layout-Fixo</h1>
 
-![fixed-layout]()
+![fixed-layout](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/Layout-Fixo%26Liquido/1-Layout-Fixo/img/exercise-layout-fixed.JPG)
 
 
 </div>
@@ -12,7 +12,7 @@
 
 Exercício proposto a fim de aplicar os conhecimentos obtidos em HTML & CSS básico. <br>
 
-Consiste em um layout desenvolvido de forma fixa com o intuito de praticar elementos flutuantes, limpeza de fluxo, posicionamento dos elementos no documento, centralização. <br>
+Consiste em um layout desenvolvido de forma fixa com o intuito de praticar elementos flutuantes, limpeza de fluxo, posicionamento dos elementos no documento e centralização. <br>
 
 
 
