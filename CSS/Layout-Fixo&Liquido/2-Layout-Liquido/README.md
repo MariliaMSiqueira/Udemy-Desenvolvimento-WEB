@@ -1,6 +1,6 @@
 <div align="center"><h1>Layout Fluido</h1>
 
-![fluid-layout]()
+![fluid-layout](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/Layout-Fixo%26Liquido/2-Layout-Liquido/img/layout-container-fluid.JPG)
 
 
 </div>
@@ -14,7 +14,7 @@ Exercício proposto a fim de aplicar os conhecimentos obtidos em HTML & CSS bás
 
 Consiste em um layout desenvolvido de forma fluída com o intuito de praticar expansão máxima e minima do container, elementos flutuantes, limpeza de fluxo, posicionamento dos elementos no documento e centralização. <br>
 
-❕ - max-width = Expansão máxima do container;
+❕ - max-width = Expansão máxima do container; <br>
 ❕ - min-width = Container chega ao valor selecionado, div trava. 
 
 
