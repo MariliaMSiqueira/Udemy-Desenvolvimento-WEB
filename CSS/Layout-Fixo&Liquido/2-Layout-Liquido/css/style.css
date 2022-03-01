@@ -1,0 +1,135 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* GERAIS */
+body{
+  width: 100%;
+  height: 100vh;
+}
+/* COLOR */
+:root{
+  --black: rgb(0, 0, 0);
+  --light-grey: rgb(242, 242, 242);
+  --extra-light-grey: rgba(0, 0, 0, 0.123);
+  --grey:rgba(0, 0, 0, 0.247);
+  --white:rgb(255, 255, 255);
+}
+/* LINKS */
+a:link, 
+a:visited{
+  text-decoration: none;
+  color: var(--black);
+  font-weight: 600;
+}
+
+/* LIST */
+ul{
+  list-style-type: none;
+}
+
+.line{
+  width: 80%;
+  margin: 30px auto;
+}
+/* CONTAINER */
+/* MIN-WIDTH = CONTAINER TRAVA NO VALOR SELECIONADO */
+/* MAX-WIDTH = VALOR MÁXIMO QUE A DIV CHEGA, NÃO EXPANDE */
+#container{
+  width: 100%;
+  background-color: var(--light-grey);
+  margin: 20px auto;
+  min-width: 920px;
+  max-width: 1190px;
+}
+
+/* LOGO */
+
+header #logo{
+width: 100%;
+height: 100px;
+text-align: center;
+line-height: 100px;
+background-color: var(--grey);
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+/* NAV */
+
+nav #menu{
+  width: 20%;
+  float: left;
+  background-color: var(--extra-light-grey);
+  border-bottom-right-radius: 5px;  
+  
+}
+
+nav #menu ul{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+nav #menu ul li {
+  padding: 20px 50px;
+  font-size: 1.1em;
+}
+
+nav #menu ul li a{
+  transition: .5s;
+}
+
+nav #menu ul li a:hover{
+  color: var(--white);
+}
+
+/* MAIN CONTENT */
+ main #main-content{
+   float: left;
+   width: 45%;
+   margin: 20px 50px;
+ }
+ main #main-content h2{
+   margin: 10px;
+ }
+
+ /* ASIDE CONTENT */
+ aside #aside-content{
+   width: 20%;
+   float: right;
+   padding: 0 20px;
+   background-color: var(--extra-light-grey);
+ }
+ aside #aside-content h3{
+   font-size: 1.5em;
+   background-color: var(--light-grey);
+   padding: 10px;
+   text-align: center;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+
+ aside #aside-content .aside-news h4{
+   margin: 10px;
+ }
+
+ aside #aside-content .aside-news {
+   margin: 20px 0;
+ }
+
+ /* FOOTER */
+ footer #social-media{
+   clear: both;
+   background-color: var(--grey);
+   width: 100%;
+   height: 50px;
+   text-align: center;
+   font-weight: 600;
+   line-height: 50px;
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+ }
