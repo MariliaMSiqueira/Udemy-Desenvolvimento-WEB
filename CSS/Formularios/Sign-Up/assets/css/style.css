@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(189, 189, 189, 0.178);
+}
+
+h1,
+.text-instruction {
+  text-align: center;
+  margin: 15px;
+}
+
+h1::after{
+  content: "";
+  border: 1px solid red;
+  display: block;
+  width: 10%;
+  text-align: center;
+  margin: 5px auto;
+}
+
+label{
+  display: block;
+}
+
+form {
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgb(250, 250, 250)
+}
+
+.wrapper {
+  min-width: 720px;
+  max-width: 820px;
+  margin: auto;
+  letter-spacing: 1px;
+}
+
+.forms {
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.forms input,
+select,
+textarea {
+  margin: 10px;
+  font-size: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.452);
+  border-radius: 5px;
+  color: rgba(0, 0, 0, 0.699);
+}
+
+#full-name,
+#social-name,
+#email {
+  width: 30rem;
+  height: 2.5rem;
+}
+
+#phone {
+  width: 9.2rem;
+  height: 2.5rem;
+  margin: 10px 2px 10px 10px;
+}
+
+#area {
+  margin-left: 24px;
+  width: 20.5rem;
+  height: 2.5rem;
+}
+
+#money {
+  width: 20rem;
+  height: 2.5rem;
+}
+
+.orien {
+  height: 2.5rem;
+  margin-bottom: 15px;
+}
+
+.note textarea {
+  width: 30.1rem;
+  height: 10rem;
+  margin-top: 20px;
+}
+
+::-webkit-input-placeholder {
+  padding: 10px;
+  color: rgba(128, 128, 128, 0.712);
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+.orien {
+  letter-spacing: none;
+}
+
+.orien input {
+  margin: 8px;
+}
+
+/* BOTÕES */
+
+.btns {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5px;
+}
+
+.btn-sub button,
+.btn-clear button {
+  width: 200px;
+  height: 40px;
+  font-size: 1.1rem;
+  color: rgb(77, 76, 76);
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  transition: .5s;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	cursor:pointer;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+button:hover {
+  background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+
+button:active{
+  position: relative;
+  top: 1px;
+}

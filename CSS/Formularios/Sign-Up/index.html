@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Formulário</title>
+  </head>
+  <body>
+    <main>
+      <div class="wrapper">
+        <div class="container">
+          <h1 class="main-title">Formulário</h1>
+          <p class="text-instruction">
+            Preencha todos os campos, clique no botão "Enviar" ao finalizar,
+            caso seja necessário, clique em "Limpar" para apagar o conteúdo
+            escrito.
+          </p>
+          <div class="forms">
+            <form
+              action="mailto:seuemail@teste.com"
+              method="post"
+              name="sign-up"
+            >
+              <div class="name">
+                <label for="full-name">Nome completo</label> 
+                <input
+                  type="text"
+                  name="full-name"
+                  id="full-name"
+                  placeholder="Digite seu nome"
+                  required
+                />
+              </div>
+              
+              <div class="email">
+                <label for="email">E-mail</label> 
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Digite seu e-mail"
+                  required
+                />
+              </div>
+              
+              <div class="phone">
+                <label for="phone">Telefone </label>
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="(DDD)  _____-____"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="(DDD)  _____-____"
+                />
+                <input
+                  type="tel"
+                  name="phone"
+                  id="phone"
+                  placeholder="(DDD)  _____-____"
+                />
+              </div>
+              <div class="area">
+                Área de atuação
+                <select name="area" id="area">
+                  <option value="write">Selecione</option>
+                  <option value="front">Front-End</option>
+                  <option value="back">Back-End</option>
+                  <option value="devops">DevOps</option>
+                  <option value="full">FullStack</option>
+                  <option value="cybersec">Cybersecurity</option>
+                </select>
+              </div>
+              <br />
+              <div class="money">
+                Pretensão salarial
+                <input
+                  type="number"
+                  name="money"
+                  id="money"
+                  placeholder="R$"
+                  required
+                />
+              </div>
+              <br />
+              <div class="orien">
+                Sexo:
+                <input type="radio" name="f/m" id="f/m" value="F" /> Feminino
+                <input type="radio" name="f/m" id="f/m" value="M" /> Masculino
+                <input type="radio" name="not-declared" id="not-declared" />
+                Prefiro não declarar <br />
+              </div>
+              <div class="note">
+                Observações gerais <br />
+                <textarea
+                  name="note"
+                  id="note"
+                  cols="30"
+                  rows="10"
+                  placeholder="Algo que deseja contar que não estava no formulário? Deixe sua mensagem aqui."
+                ></textarea>
+              </div>
+              <div class="btns">
+                <div class="btn-sub"><button type="submit" >Enviar</button></div>
+                <div class="btn-clear">
+                  <button type="reset">Limpar</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+  </body>
+</html>
