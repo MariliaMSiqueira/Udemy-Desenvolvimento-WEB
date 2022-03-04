@@ -1,12 +1,12 @@
 <div align="center"><h1>Notícias Cidade - As notícias da sua cidade em tempo recorde!</h1>
 
-![Home Page]()
+![Home Page](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/7-Projeto-Noticias-Cidade/assets/img/tree-col-layout.gif)
 
 
-![Two col]()
+![Two col](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/7-Projeto-Noticias-Cidade/assets/img/two-col-layout.gif)
 
 
-![three col]()
+![three col](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/7-Projeto-Noticias-Cidade/assets/img/one-col-layout.gif)
 
 </div>
 
