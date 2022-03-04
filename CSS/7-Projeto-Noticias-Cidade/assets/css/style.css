@@ -1,0 +1,366 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* COLOR */
+:root{
+  --blue: #294c71;
+  --white: #fff;
+  --red:#d11406fa;
+  --bold-red: #64031f;
+  --active-page: #f30548;
+  --light-blue: #294c7180;
+  --letter-color: #424242;
+  --img-border: #dfdfdf;
+  --light-gray: #eee;
+}
+
+/* GERAIS */
+body{
+  width: 100%;
+  height: 100vh;
+  background: url(../img/fundo.png) repeat-x;
+}
+
+/* LIST */
+ul{
+  list-style-type: none;
+}
+
+/* LINKS */
+a:link,
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+
+h1.logo{
+  width: 152px;
+  height: 66px;
+  background: url(../img/logo.png) no-repeat center;
+  text-indent: -3000px; /* NÃO UTILIZAR DISPLAY:NONE - SEO GOOGLE */
+}
+
+img{
+  border: 2px solid var(--img-border);
+}
+
+/* ========== CONTAINER */
+#container{
+  width: 70%;
+  min-width: 1400px;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+/* DUAS COLUNAS */
+
+.brasil #container{
+  width: 60%;
+  height: 100vh;
+}
+
+/* ========== HEADER */
+/* ========== LOGO */
+header #header{
+  width: 100%;
+  min-width: 1020px;
+  height: 230px;
+  background: url(../img/detalhe-topo.png) no-repeat top right;
+  padding: 30px 0;
+}
+
+/* ========== NAV MENU */
+/* SE FAZ NECESSÁRIO QUE O UL E LI SEJA ELEMENTOS FLUTUANTES */
+#menu ul{
+  background: var(--red);
+  margin-top: 20px;
+  border-radius: 5px;
+  float: left;
+}
+
+nav #menu li {
+  float: left;
+}
+/* ====== ATENTE-SE!! LINKS COM DISPLAY:BLOCK */
+nav #menu li a {
+  background: url(../img/divisor.png) no-repeat left center;
+  font-weight: 600;
+  display: block;
+  font-size: 1.1em;
+  padding: 0.5em 1.5em;
+  line-height: 2.1em;
+  border-radius: 5px;
+  color: var(--white);
+  transition: .5s;
+}
+
+nav #menu ul .no-border a{
+  background: none;
+}
+
+nav #menu ul a:hover{
+  color: var(--bold-red);
+}
+
+/* ==== ACTIVE PAGE WITH CSS */
+body.home #nav a#home,
+body.brazil #nav a#brazil,
+body.inter #nav a#inter,
+body.economy #nav a#economy,
+body.health #nav a#health,
+body.science #nav a#science,
+body.photo #nav a#photo
+{
+  color: var(--white);
+  background: var(--active-page);
+  cursor: text;
+}
+
+/* ========== LAYOUT */
+/* ========== BOX GERAL */
+.box{
+  background: url(../img/fundo-caixa.png);
+  padding: 10px;
+  margin-top: 20px;
+}
+.box h2{
+  background: var(--blue);
+  color: var(--white);
+  text-align: center;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  line-height: 50px;
+}
+
+.box h3{
+  background: var(--bold-red);
+  color: var(--white);
+  text-align: center;
+  line-height: 30px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-transform: uppercase;
+}
+
+.box .box-content {
+  background: var(--white);
+  font-size: 1.1em;
+  padding: 5px;
+}
+
+.box .text-content a{
+  display: block;
+  color: var(--bold-red);
+  font-weight: bold;
+  margin: 10px;
+  text-transform: uppercase;
+}
+
+.box .text-content a:hover{
+  text-decoration: underline;
+}
+
+/* ========== MAIN CONTENT */
+#main-content{
+  width: 39%;
+  float: left;
+  margin-right: 1%;
+}
+/* =========== UMA COLUNA */
+#one-col #main-news{
+  width: 80%;
+  margin: 0 auto;
+}
+#one-col #main-news img.main-photo{
+  width: 80%;
+  position: relative;
+  left: 10%;
+}
+
+#one-col #main-news h3{
+  width: 80%;
+}
+#one-col #main-news .box-content{
+  border-radius: 5px;
+}
+
+img.main-photo{
+  width: 100%;
+}
+
+
+
+/* ========= LIST NEWS */
+#news-list li{
+  padding: 5px;
+}
+
+#news-list li::after{
+  border: 1px solid var(--light-blue);
+  content: "";
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+}
+
+#news-list li:hover{
+  cursor: pointer;
+  background: var(--light-gray);
+  border-radius: 5px;
+}
+
+/* ===== IMG PRECISA SER UM ELEMENTO FLUTUANTE */
+#news-list li a img{
+  width: 100px;
+  float: left;
+  margin-right: 10px;
+}
+
+#news-list li a{
+  font-size: 0.8em;
+}
+
+#news-list li a h4{
+ float: left;
+ color: var(--active-page);
+ letter-spacing: 2px;
+ font-size: 1.2em;
+ 
+}
+
+/* ========== RIGHT-CONTENT */
+#right-content{
+  width: 39%;
+  float: left;
+  margin-right: 1%;
+}
+
+img.right-photo{
+  width: 100%;
+}
+
+/* ========== DUAS COLUNAS */
+#two-col #right-content{
+  width: 70%;
+  float: left;
+}
+
+#two-col #right-content h3{
+  width: 60%;
+}
+
+#two-col #right-content img.right-photo{
+  width: 60%;
+  position: relative;
+  left: 20%;
+}
+
+#two-col #right-content .box-content{
+  border-radius: 5px;
+}
+
+
+/* ========== ASIDE-CONTENT */
+#aside-content{
+  width: 20%;
+  float: left;
+}
+
+#aside-content #people{
+  background: var(--white);
+}
+
+#aside-content #people li{
+  padding: 20px;
+}
+#aside-content #people li a:hover{
+  font-weight: bold;
+}
+#aside-content #people li a:hover::before{
+  content: url(../img/marcador.png);
+  padding-right: 10px;
+}
+
+/* ============ ASIDE NEWS */
+#aside-news form{
+  background: var(--white);
+  margin-top: 10px;
+  padding: 5px;
+}
+
+#aside-news form p {
+  color: var(--letter-color);
+  font-size: 1.2em;
+  text-align: center;
+  margin: 10px 0;
+}
+
+#aside-news label{
+  color: var(--letter-color);
+  display: block;
+  font-size: 1.1em;
+  text-align: center;
+}
+#aside-news input[type=email]{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--light-blue);
+  margin: 5px 0;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(128, 128, 128, 0.712);
+  font-weight: lighter;
+  font-size: 1rem;
+}
+
+#aside-news input[type=submit]{
+  width: 100%;
+  height: 30px;
+  margin: 5px 0 10px 0;
+  border-radius: 5px;
+  font-size: 1em;
+  color: var(--letter-color);
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.26);
+  transition: .5s;
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #f9f9f9 5%, #e9e9e9 100%);
+	background-color:#f9f9f9;
+	cursor:pointer;
+	text-shadow:0px 1px 0px #ffffff;
+}
+
+#aside-news input[type=submit]:hover {
+  background:linear-gradient(to bottom, #e9e9e9 5%, #f9f9f9 100%);
+	background-color:#e9e9e9;
+}
+#aside-news input[type=submit]:active{
+  position: relative;
+  top: 1px;
+}
+
+/* FOOTER */
+
+footer {
+  clear: both;
+  text-align: center;
+  background: var(--blue);
+  width: 100%;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+}
+
+#footer a{
+  color: #fff;
+}
