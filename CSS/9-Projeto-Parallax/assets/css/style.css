@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COLOR */
+
+:root{
+  --letter-color: #777;
+  --black: #000;
+  --white: #fff;
+  --title-color: #111;
+}
+
+body,
+html{
+  color: var(--letter-color);
+  height: 100%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-width: 570px;
+}
+
+
+
+/* TEXT CONTENT */
+
+.content{
+  color: var(--letter-color);
+  background-color: var(--white);
+  text-align: justify;
+  padding: 50px 100px;
+  font-size: 18px;
+}
+
+.content h3{
+  text-transform: uppercase;
+  color: var(--title-color) ;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p{
+  margin-bottom: 10px;
+}
+
+/* =========== PARALLAX */
+
+.box1{
+  background: url(../img/imagem6.jpg);
+}
+
+.box2{
+  background: url(../img/imagem2.jpg);
+}
+
+.box3{
+  background: url(../img/imagem3.jpg);
+}
+
+.box4{
+  background: url(../img/imagem4.jpg);
+}
+
+.box5{
+  background: url(../img/imagem5.jpg) ;
+}
+
+.box6{
+  background: url(../img/imagem1.jpg);
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6{
+  position: relative;
+  height: 100%;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.title-content{
+  position: absolute;
+  left: 0%;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.title-content span.title{
+  color: var(--white);
+  background: var(--title-color);
+  padding: 18px;
+  letter-spacing: 5px;
+  font-size: 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  
+}
