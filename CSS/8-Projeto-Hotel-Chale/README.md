@@ -1,6 +1,6 @@
 <div align="center"><h1>Chalé Hotel - Seu descanso, nosso compromisso!</h1>
 
-![Home Page]()
+![Home Page](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/8-Projeto-Hotel-Chale/assets/img/layout-project.gif)
 
 
 </div>
