@@ -1,6 +1,6 @@
 <div align="center"><h1>Efeito Parallax com CSS</h1>
 
-![Home Page]()
+![Home Page](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/9-Projeto-Parallax/assets/img/project-layout.gif)
 
 
 </div>
