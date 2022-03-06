@@ -1,0 +1,269 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* COLOR */
+:root{
+  --black: #000;
+  --white: #fff;
+  --orange: #af670a;
+  --light-orange: #f0ddb6;
+  --link-hover: #227115;
+  --light-gray: #adabab;
+  --border-color: #ada484;
+}
+
+/* GERAIS */
+body{
+  background: #f4f2ec url(../img/fundo.png) repeat-x;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a:link,
+a:visited,
+a:active
+a{
+  text-decoration: none;
+  color: var(--orange);
+}
+
+a:hover{
+  color: var(--link-hover);
+  transition: .5s;
+}
+
+h2{
+  color: var(--orange);
+  text-transform: uppercase;
+  font-size: 1.2em;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  margin-bottom: 0px;
+}
+
+
+input{
+  border: none;
+  height: 25px;
+  width: 80px;
+  font-size: 1em;
+  background: var(--white);
+}
+
+input.field{
+  border: 1px solid var(--border-color);
+}
+
+fieldset{
+  border: none;
+  text-align: center;
+}
+
+legend{
+  display: none;
+}
+
+article h3{
+  color: var(--link-hover);
+  margin: 15px 0;
+  font-size: 1.1em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.clear{
+  clear: both;
+}
+
+/* =========== CONTAINER */
+#container{
+  width: 1080px;
+  margin: 0 auto;
+}
+
+/* =========== HEADER */
+header{
+ width: 100%;
+}
+
+#header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+  margin: 10px;
+}
+
+header #logo{
+  text-indent: -9000px;
+  height: 21px;
+  width: 248px;
+  background: url(../img/logo.png) no-repeat left;
+}
+
+/* ========== NAV MENU HEADER */
+
+nav #menu-items {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+header #menu-items li a{
+  margin: 20px;
+  padding: 5px;
+  text-transform: uppercase;
+  
+}
+
+header #menu-items li a:hover{
+  color: var(--link-hover);
+  border-bottom: 1px solid var(--orange);
+  transition: .5s all;
+}
+
+/* ========== MAIN CONTENT */
+#main-content{
+  width: 710px;
+  margin-top: 10px;
+  float: left;
+}
+
+img.main-img{
+  width: 100%;
+  height: 320px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#expo a::before{
+  content: "-";
+  margin-right: 10px;
+}
+
+article#video,
+article#map,
+article#expo,
+article#history{
+  float: left;
+  width: 310px;
+  margin-left: 25px;
+}
+
+/* ========== ASIDE CONTENT */
+#aside-content {
+  width: 350px;
+  margin-top: 10px;
+  float: right;
+}
+
+#aside-img img{
+  width: 100%;
+  height: 320px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+section#visit{
+  background: var(--light-orange);
+  padding: 10px 20px;
+}
+
+#visit .visit-datas{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.visit-datas input[type=date]{
+  width: 50px;
+}
+
+.visit-datas input[type=number] {
+  width: 30px;
+}
+
+.visit-datas input[type=submit] {
+    background: #9b9271;
+    border-radius: 2px;
+    color: var(--white);
+    width: 100%;
+    height: 32px;
+    font-size: 1.2em;
+    transition: .5s all;
+    margin: 10px 0;
+}
+
+.visit-datas input[type=submit]:hover{
+  color: #9b9271;
+  background: var(--white);
+  border: 1px solid var(--border-color);
+}
+
+
+/* ==========PHOTOS */
+
+section#galery{
+
+  padding: 10px 35px ;
+  background: rgb(233, 233, 213);
+  margin: 5px 0 ;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+img.photo-galery{
+  height: 93px;
+  width: 93px;
+  margin-left: 2px;
+  margin-top: 3px;
+}
+
+
+#galery img{
+  display: block;
+  float: left;
+  margin: 15px 20px;
+  border: 5px solid var(--white);
+}
+  
+
+/* #galery a{
+  display:block;
+  background: url(../img/fundo-foto.png) no-repeat;
+  float: left;
+  padding: 17px 15px;
+  margin: 10px 0 0 20px;
+}  */
+
+/* =========== FOOTER */
+
+#footer-content{
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background: url(../img/fundo-rodape.png) no-repeat center top;
+  margin-top: 50px;
+}
+
+#footer-content p {
+  margin: 10px;
+}
+#footer-links ul{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+#footer-links ul li a{
+  padding-right: 10px;
+}
