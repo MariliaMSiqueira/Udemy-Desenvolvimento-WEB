@@ -1,6 +1,6 @@
 <div align="center"><h1>Museu Nacional Oficial</h1>
 
-![Home Page]()
+![Home Page](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/CSS/10-Projeto-Museu-Nacional/assets/img/layout-project.gif)
 
 
 </div>
