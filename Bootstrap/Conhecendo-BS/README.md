@@ -28,6 +28,13 @@ Adquirindo conhecimento em:
  - [x] Formulários;
  - [x] Input Group pretend e append;
  - [x] Alerts e ProgressBar;
+ - [x] Tabela e Paginação;
+ - [x] Cards;
+ - [x] Jumbotron & Estrutura para media;
+ - [x] GRID System;
+ - [x] Configurações GRID;
+ - [x] Alinhamento GRID;
+ - [x] Margin e Wrap.
  
 
  ----
@@ -39,18 +46,18 @@ Adquirindo conhecimento em:
 
 n = número;
 
-  - [x] hn ≠ display  ➤  .display-n;
-  - [x] Destaque maior  ➤  .lead;
+  - [x] hn ≠ display  =  .display-n;
+  - [x] Destaque maior  =  .lead;
 
-  - [x] Letras maiúscula  ➤  .text-uppercarse;
+  - [x] Letras maiúscula  =  .text-uppercarse;
 
-  - [x] Alinhamento  ➤  .text-right  /  .text-left  /  .text-center;
+  - [x] Alinhamento  =  .text-right  /  .text-left  /  .text-center;
 
-  - [x] Bloco de citação  ➤  blockquote/cite;
+  - [x] Bloco de citação  =  blockquote/cite;
 
-  - [x] Listas sem estilo ➤  .list-unstyled;
+  - [x] Listas sem estilo =  .list-unstyled;
 
-  - [x] Listas inline  ➤  .list-inline / .list-inline-item;
+  - [x] Listas inline  =  .list-inline / .list-inline-item;
 
 
 ---
@@ -61,10 +68,10 @@ n = número;
 <strong>Elementos block</strong> = se comportam como um bloco, ocupando toda viewport. <br>
 <strong>Elementos inline-block </strong> =  Agregam os dois comportamentos, haja vista que, as propriedades padding/margin/width serão aceitas, simultaneamente, estarão inline. <br>
 
-  - [x] Texto justificado  ➤  .text-justify;
-  - [x] display:block  ➤  .d-block;
-  - [x] display:inline  ➤  .d-inline;
-  - [x] display:inline-block  ➤  .d-inline-block;
+  - [x] Texto justificado  =  .text-justify;
+  - [x] display:block  =  .d-block;
+  - [x] display:inline  =  .d-inline;
+  - [x] display:inline-block  =  .d-inline-block;
  
    
    ---
@@ -87,18 +94,18 @@ n = número;
 
  DIV Flutuante sai do padrão do DOC, é necessário utilizar o clear:both;
 
-  - [x] Corrigir o fluxo, na DIV PAI  ➤ .clearfix;
-  - [x] Float left  ➤  .float-left;
-  - [x] Float right  ➤  .float-right;
-  - [x] Float none  ➤  .float-none;
+  - [x] Corrigir o fluxo, na DIV PAI  = .clearfix;
+  - [x] Float left  =  .float-left;
+  - [x] Float right  =  .float-right;
+  - [x] Float none  =  .float-none;
 
    <div align="center"><h4>Elementos flutuantes responsivos 🎈📃</h4></div>
 
    Padrão = float-sufixo-direção <br>
    sufixo : sm, md, lg, xl. <br>
 
-  - [x] Right  ➤  .float-sm-righ.;
-  - [x] Left  ➤  .float-sm-lef.;
+  - [x] Right  =  .float-sm-righ.;
+  - [x] Left  =  .float-sm-lef.;
 
 
   ---
@@ -109,9 +116,9 @@ n = número;
  sticky = grudar;
 
  
-  - [x] Fixo no topo   ➤  .fixed-top;
-  - [x] Fixo no bottom ➤  .fixed-bottom;
-  - [x] Sticky no top ➤  .sticky-top;
+  - [x] Fixo no topo   =  .fixed-top;
+  - [x] Fixo no bottom =  .fixed-bottom;
+  - [x] Sticky no top  =  .sticky-top;
 
     ---
 
@@ -141,22 +148,22 @@ n = número;
  Padrão = w-porcentagem <br>
  Padrão = h-porcentagem <br>
 
-   - [x] width 25    ➤  .w-25";
-   - [x] height 25%  ➤  .h-25";
-   - [x] width-auto  ➤  .w-auto";
+   - [x] width 25    =  .w-25";
+   - [x] height 25%  =  .h-25";
+   - [x] width-auto  =  .w-auto";
 
 <h4>Bordas</h4> <br>
 
 Padrão = border-cor-lado
 
- - [x] Border Right   ➤  .border-right;
+ - [x] Border Right   =  .border-right;
 
  <h5>Border Radius</h5> <br>
 
  Padrão = border rounded-lado
 
-- [x] Border Rounded Left   ➤  .border rounded-righ;
-- [x] Círculo   ➤  .border rounded-circle;
+- [x] Border Rounded Left   =  .border rounded-righ;
+- [x] Círculo   =  .border rounded-circle;
 
 
    
@@ -174,13 +181,13 @@ Padrão = border-cor-lado
 
  - [x] Media types;
 
- - [x] @media(min-width: 576px){background: red} ➤ A partir de 576px o background red será aplicado;
+ - [x] @media(min-width: 576px){background: red} = A partir de 576px o background red será aplicado;
 
- - [x] @media(min-width: 768px){}  ➤ A partir de 768px, as configurações serão aplicadas ;
+ - [x] @media(min-width: 768px){}  = A partir de 768px, as configurações serão aplicadas ;
 
- - [x] @media(max-width: 575px){} ➤ Até 575px, as configurações serão aplicadas;
+ - [x] @media(max-width: 575px){} = Até 575px, as configurações serão aplicadas;
 
- - [x] @media(max-width: 660px){} ➤ Até 660px, as configurações serão aplicadas.
+ - [x] @media(max-width: 660px){} = Até 660px, as configurações serão aplicadas.
 
  Existe a possibilidade de configurar intervalos utilizando @media(max-width:576px) {...} <br>
  @media(min-width:576px) and (max-width: 767px) <br>
@@ -306,10 +313,160 @@ Padrão = border-cor-lado
  - [x] .progress-bar bg-danger w-75 progress-bar-animated;
 
 
+   ---
 
 
+ <div align="center"><h3>Tabela e Paginação 📚</h3></div>
+
+  Cores contextuais; <br>
+  thead: <br>
+  tr = table row; <br>
+  th = table head; <br>
+  <br>
+  tbody: <br>
+  tr <br>
+  td = table data; <br>
+  Maior acessibilidade - leitores de tela = .sr-only
+
+ - [x] table .table;
+ - [x] table .table-dark;
+ - [x] thead .thead-dark;
+ - [x] table .table-striped;
+ - [x] table .table-bordered;
+ - [x] table .table-borderless;
+ - [x] table .table-sm;
+ - [x] div com .table-responsive e table .table;
+ - [x] ul.pagination,  li.page-item active e a.page-link ;
+ 
+
+---
 
 
+ <div align="center"><h3>Cards 🎴♦</h3></div>
 
+ Overlay = sobreposta <br>
+ Header = Cabeçalho <br>
+ Tabs = Abas <br>
+ Cores contextuais
+
+ - [x] .card outra div.card-body;
+
+ - [x] .card-title, .card-subtitle, .card-text;
+
+ - [x] .card, img.card-img, .card-body ;
+
+ - [x] .card, img.card-img, .card-img-overlay;
+
+ - [x] .card, .card-header, .card-body ... .card-footer;
+
+ - [x] .card, .card-header, ul.nav nav-tabs card-header-tabs, li.nav-item, a.nav-link, .card-body;
+
+ - [x] .card-columns agrega outras divs .card
+ 
+
+ ---
+
+
+ <div align="center"><h3>Jumbotron & Estrutura para medias 🧿</h3></div>
+
+Áreas de destaque;
+
+- [x] .jumbotron .container h1.display-4 p.lead;
+
+Estruturas de media: <br>
+Alinhamento: start, center e end. <br>
+
+- [x] .media  img.mr-3 align-self-center  .media-body
+
+- [x] ul.list-unstyled  li.media  img.align-selft-center .media-body (h5 e p).
+
+ ---
+
+
+ <div align="center"><h3>GRID System</h3></div>
+
+São 12 colunas; <br>
+.container é responsivo; <br>
+.row cria um Flex Container; <br>
+
+- [x] .container .row .col-12 (formatação para todos os devices);
+
+ - [x] .row .col-md-6 {...} .col-md-6{...} = com md, as configurações serão aplicadas em devices A PARTIR DE 768px. Devices menores, o layout ficará um abaixo do outro.
+
+
+ ---
+
+
+ <div align="center"><h3>Configurações GRID</h3></div>
+
+ Cada .row define um novo GRID de 12 colunas
+
+ - [x] .container = onde ficarão todos os conteúdos;
+
+ - [x] .row ocupa todo o .container
+
+ - [x] .container-fluid = preenche toda a viewport;
+
+ - [x] largura fixa = .col;
+
+- [x] largura fixa empilhada = .col-sm .col-sm (Quando atingir device sm, as divs ficarão empilhadas);
+
+- [x] .order = ordem das divs;
+
+- [x] offset-n = posicionar div;
+
+
+ ---
+
+
+ <div align="center"><h3>Alinhamento GRID</h3></div>
+
+ <div align="center"><h4>Alinhamento Vertical</h4></div>
+
+ Alinhamento-Vertical: align-items-start/center/end. <br>
+
+ Aplica na div.row
+
+ - [x] .row para criar um flex-item com .col
+ - [x] .row .align-items-Alinhamento .col 
+
+
+<div align="center"><h4>Alinhamento Vertical Individual</h4></div>
+
+Alinhamento-Vertical-Individual: align-self-start/center/end <br>
+
+Aplica nos flex-items
+
+- [x] .row .col .aligm-self-Alinhamento-Horizontal-Individual;
+
+<div align="center"><h4>Alinhamento Horizontal em Colunas</h4></div>
+
+Alinhamento-Horizontal : justify-content- start/center/end <br>
+
+Aplica na div.row
+
+- [x] .row .justify-content- Alinhamento-Horizontal
+ 
+<div align="center"><h4>Distribuição dos flex-items</h4></div>
+
+Alinhamento Horizontal : justify-content-around/between <br>
+
+Aplica na .row
+
+- [x] .row .jutify-content-Alinhamento .col 
+
+<div align="center"><h4>Removendo espaçamentos/padding dos flex-items</h4></div>
+
+Aplica na .row no-gutters
+
+- [x] .row .not-gutters;
+
+
+ ---
+
+
+ <div align="center"><h3>Margin e Wrap</h3></div>
+
+Com d-flex o padrão será .nowrap
 
 
