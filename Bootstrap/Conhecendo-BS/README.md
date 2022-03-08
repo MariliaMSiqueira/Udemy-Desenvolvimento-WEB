@@ -39,13 +39,18 @@ Adquirindo conhecimento em:
 
 n = número;
 
-  - [x] hn ≠ display  ➤  class="display-n";
-  - [x] Destaque maior  ➤  class="lead";
-  - [x] Letras maiúscula  ➤  class="text-uppercarse";
-  - [x] Alinhamento  ➤  class="text-right"  /  "text-left"  /  "text-center";
+  - [x] hn ≠ display  ➤  .display-n;
+  - [x] Destaque maior  ➤  .lead;
+
+  - [x] Letras maiúscula  ➤  .text-uppercarse;
+
+  - [x] Alinhamento  ➤  .text-right  /  .text-left  /  .text-center;
+
   - [x] Bloco de citação  ➤  blockquote/cite;
-  - [x] Listas sem estilo ➤  class="list-unstyled"; 
-  - [x] Listas inline  ➤  class="list-inline" / class="list-inline-item";
+
+  - [x] Listas sem estilo ➤  .list-unstyled;
+
+  - [x] Listas inline  ➤  .list-inline / .list-inline-item;
 
 
 ---
@@ -56,7 +61,7 @@ n = número;
 <strong>Elementos block</strong> = se comportam como um bloco, ocupando toda viewport. <br>
 <strong>Elementos inline-block </strong> =  Agregam os dois comportamentos, haja vista que, as propriedades padding/margin/width serão aceitas, simultaneamente, estarão inline. <br>
 
-  - [x] Texto justificado  ➤  .text-justify";
+  - [x] Texto justificado  ➤  .text-justify;
   - [x] display:block  ➤  .d-block;
   - [x] display:inline  ➤  .d-inline;
   - [x] display:inline-block  ➤  .d-inline-block;
@@ -115,16 +120,15 @@ n = número;
   Valor a definir de 0 até 5 <br>
   Para padding basta alterar de "m" para "p".
 
-   - [x]mt  ➤  Margin-Top;
-   - [x]mb  ➤  Margin-Bottom;
-   - [x]mr  ➤  Margin-Right;
-   - [x]ml  ➤  Margin-Left;
-   - [x]mx  ➤  Margin eixo X;
-   - [x]my  ➤  Margin eixo Y;
-   - [x]m   ➤  Margin todos os lados;
+   - [x] mt  ➤  Margin-Top;
+   - [x] mb  ➤  Margin-Bottom;
+   - [x] mr  ➤  Margin-Right;
+   - [x] ml  ➤  Margin-Left;
+   - [x] mx  ➤  Margin eixo X;
+   - [x] my  ➤  Margin eixo Y;
+   - [x] m   ➤  Margin todos os lados;
 
 
-   
     ---
 
 
@@ -169,9 +173,13 @@ Padrão = border-cor-lado
  
 
  - [x] Media types;
+
  - [x] @media(min-width: 576px){background: red} ➤ A partir de 576px o background red será aplicado;
+
  - [x] @media(min-width: 768px){}  ➤ A partir de 768px, as configurações serão aplicadas ;
+
  - [x] @media(max-width: 575px){} ➤ Até 575px, as configurações serão aplicadas;
+
  - [x] @media(max-width: 660px){} ➤ Até 660px, as configurações serão aplicadas.
 
  Existe a possibilidade de configurar intervalos utilizando @media(max-width:576px) {...} <br>
@@ -222,9 +230,13 @@ Padrão = border-cor-lado
  <strong>Breadcrumb = migalha de pão com ol</strong>
 
 - [x] .list-group / list-group-item; 
+
 - [x] .list-group .list-group-flush = Sem bordas laterais; 
+
 - [x] .list-group active = Elemento ativo;
+
 - [x] .badge badge-warning;
+
 - [x] ol .breadcrumb / li .breadcrumb-item / a href="#" =  indica onde o usuário está com a possibilidade de retornar a página anterior.
 
   ---
@@ -237,16 +249,27 @@ Padrão = border-cor-lado
 .valid-feedback / .invalid-feedback <br>
 
  - [x] div .form-group com label e input;
+
  - [x] input com .form-control; 
+
  - [x] Propriedade readonly;
+
  - [x] .form-text para textos dentro do form;
+
  - [x] select com .form-control;
+
  - [x] textarea com .form-control;
+
  - [x] input type="file" com .form-control-file ou .custom-file-label / .custom-file-input;
+
  - [x] input type="range" com .custom-range;
- - [x] form e input com .form-inline; 
+
+ - [x] form e input com .form-inline;
+
  - [x] Login is-valid ou is-invalid;
+
  - [x] div com conteúdo "Email válido" .valid-feedback;
+
  - [x] div com conteúdo "Senha inválida" .invalid-feedback;
 
    ---
@@ -273,9 +296,13 @@ Padrão = border-cor-lado
    
 
  - [x] .alert alert-primary(contexto);
+
  - [x] div com .alert alert-success alert-dismissible  div com buttom com .close e propriedade data-dismiss="alert";
+
  - [x] div com .progress div com .progress-bar bg-success w-25;
+
  - [x] .progress-bar bg-warning w-50 progress-bar-striped;
+
  - [x] .progress-bar bg-danger w-75 progress-bar-animated;
 
 
