@@ -129,7 +129,7 @@ n = número;
    - [x] m   ➤  Margin todos os lados;
 
 
-    ---
+  ---
 
 
  <div align="center"><h3>Tamanhos e Bordas📃</h3></div>
@@ -141,9 +141,9 @@ n = número;
  Padrão = w-porcentagem <br>
  Padrão = h-porcentagem <br>
 
-   - [x]width 25    ➤  .w-25";
-   - [x]height 25%  ➤  .h-25";
-   - [x]width-auto  ➤  .w-auto";
+   - [x] width 25    ➤  .w-25";
+   - [x] height 25%  ➤  .h-25";
+   - [x] width-auto  ➤  .w-auto";
 
 <h4>Bordas</h4> <br>
 
