@@ -1,9 +1,9 @@
 <div align="center"><h1>Finans - Suas contas descomplicadas!</h1></div>
 
-![Finans Project]()
+![Finans Project](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/Bootstrap/11-Projeto-Finans/assets/img/project-layout.gif)
 
 
-![Finans Project]()
+![Finans Project Responsive](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/Bootstrap/11-Projeto-Finans/assets/img/responsive-project-layout.gif)
 
 
 ---
