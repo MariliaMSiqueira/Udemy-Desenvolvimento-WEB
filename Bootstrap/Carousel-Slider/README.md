@@ -12,7 +12,8 @@ Consiste na elaboração de um carousel. Amplamente utilizado em sites modernos.
 ---
 
 <div align="center"><h2>Links Úteis</h2></div>
-  - [Unsplash DEV](https://unsplash.com/developers)
+
+[Unsplash DEV](https://unsplash.com/developers)
 
 <div align="center"><h2>Habilidades ✔</h2></div>
 
