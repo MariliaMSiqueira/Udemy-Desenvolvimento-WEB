@@ -1,0 +1,235 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* ESCONDER OS CONTEUDOS QUE ULTRAPASSAM O EIXO X */
+body, html, #main-content{
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* IMAGENS COM OPACIDADE */
+body{
+  background: url(../img/capa.png),
+  url(../img/ruido.png),
+  linear-gradient(60deg, #ff4169, #7c26f8);
+background-attachment: fixed;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* TIPOGRAFIA */
+h1{
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+h2{
+  letter-spacing: -0.033rem;
+  font-size: 3em;
+  font-weight: 700;
+}
+
+h3{
+  margin-top: 20px;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+p.lead{
+  font-weight: 100;
+}
+
+.box{
+  padding: 30px 0;
+}
+
+.footer-text{
+  color: rgba(255, 255, 255, 0.5);
+  text-transform: uppercase;
+}
+
+
+/* HEADER */
+nav.nav-background{
+  padding: 15px 0 ;
+  background: rgba(0,0,0,0.5);
+}
+
+/* HEADER LINKS */
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+  font-weight: 500;
+  padding: 0 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #9bf0e1;
+  transition: .5 all;
+}
+
+/* HEADER BORDER COLOR ICON TOGGLER */
+
+.navbar-dark .navbar-toggler{
+  border-color: rgba(255, 255, 255, 0.39);
+}
+
+/* HEADER DIVISOR */
+li.divider{
+  width: 1px;
+  height: 15px;
+  background: #fff;
+  margin: 6px 15px;
+}
+
+/* #menu-header li:nth-child(3)::after{
+  content: "|";
+  display: inline;
+  position: relative;
+  top: -32px;
+  margin: 10px;
+} */
+
+/* HOME */
+/* BOTÕES */
+.btn-custom{
+  color: #fff;
+  border-radius: 500px;
+  transition: .4s all;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.btn-free{
+  background: #7c25f8;
+  border: 1px solid #7c25f8;
+}
+
+.btn-free:hover{
+  background: #6207e3;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn-premium{
+  border: 1px solid #fff;
+ color: #fff;
+}
+
+.btn-premium:hover{
+  background: #fff;
+  color:#000;
+}
+
+
+/* SPOTIFY CONTENT */
+#spotify-content{
+  background: #fff;
+}
+
+#spotify-content h2, h3{
+    color: #6207e3;
+}
+
+/* RESOURCES */
+#resources h3{
+  color: #9bf0e1;
+}
+
+.rotate{
+  -webkit-transform:rotate(30deg);
+  -ms-transform: rotate(30deg);
+  -o-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+
+/* FOOTER */
+
+#footer{
+  background: #000;
+  padding: 50px 0 20px 0;
+  position: relative;
+}
+
+#footer ul li a{
+  color: #fff;
+}
+#footer ul li a:hover{
+  color: #9bf0e1;
+}
+
+
+/* RESPONSIVIDADE */
+@media (max-width: 575.98px) { 
+  h1.display-1{
+    font-size: 3.3em;
+  }
+  /* HEADER LINK */
+  .nav-link-custom{
+    margin-top: 15px;
+  }
+  /* MAIN BTN */
+  .btn-custom{
+    font-size: .875rem;
+    margin: 8px;
+  }
+  /* SPOTIFY CONTENT  TEXT*/
+  #spotify-content h2{
+    font-size: 2.5rem;
+  }
+ }
+
+@media (min-width: 576px) { 
+  h1.display-1{
+    font-size: 3.5em;
+  }
+  /* MAIN BTN */
+  .btn-custom{
+    font-size: .875rem;
+    line-height: 1.5;
+  }
+ }
+
+
+@media (min-width: 768px) { 
+  h1.display-1{
+    font-size: 4em;
+  }
+  /* MAIN BTN */
+  .btn-custom{
+    font-size: 1rem;
+  }
+}
+
+
+@media (min-width: 992px) { 
+  h1.display-1{
+    font-size: 5em;
+  }
+  /* MAIN BTN */
+  .btn-custom{
+    font-size: 1.25rem;
+  }
+  /* SPOTIFY CONTENT  TEXT*/
+  #spotify-content h2{
+    font-size: 2.5rem;
+  }
+  .rotate{
+    padding-left: 80px;
+  }
+ }
+
+
+@media (min-width: 1200px) { 
+  h1.display-1{
+    font-size: 6em;
+  }
+   /* SPOTIFY CONTENT  TEXT*/
+   #spotify-content h2{
+    font-size: 3rem;
+  }
+ }
