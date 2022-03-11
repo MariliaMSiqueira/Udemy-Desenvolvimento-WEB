@@ -30,3 +30,4 @@ Reforçando conhecimento em:
  - [x] Rotacionar divs;
  - [x] Overflow : hidden; 
  - [x] d-none;
+ - [x] Carousel.

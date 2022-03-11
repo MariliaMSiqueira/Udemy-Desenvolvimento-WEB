@@ -124,6 +124,12 @@ li.divider{
   color:#000;
 }
 
+/* CAROUSEL */
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 5%;
+}
 
 /* SPOTIFY CONTENT */
 #spotify-content{
