@@ -6,6 +6,9 @@
 ![Spotify Project Responsive](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/Bootstrap/12-Projeto-Spotify/assets/img/responsive-project-layout.gif)
 
 
+![Carousel Project](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/Bootstrap/12-Projeto-Spotify/assets/img/carousel-project.gif)
+
+
 ---
 
 <div align="center"><h2>O projeto 💻</h2></div>
