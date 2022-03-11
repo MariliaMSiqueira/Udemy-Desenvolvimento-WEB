@@ -1,9 +1,9 @@
-<div align="center"><h1>Spotidy - Música para todos!</h1></div>
+<div align="center"><h1>Spotify - Música para todos!</h1></div>
 
-![Spotify Project]()
+![Spotify Project](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/Bootstrap/12-Projeto-Spotify/assets/img/project-layout.gif)
 
 
-![Spotify Project Responsive]()
+![Spotify Project Responsive](https://github.com/MariliaMSiqueira/Udemy-Desenvolvimento-WEB/blob/main/Bootstrap/12-Projeto-Spotify/assets/img/responsive-project-layout.gif)
 
 
 ---
