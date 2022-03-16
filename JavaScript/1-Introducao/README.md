@@ -27,10 +27,21 @@ Adquirindo conhecimento em:
  - [x] Funções nativas(atributos/propriedades) para manipular datas (Data UNIX / getTime());
  - [x] Eventos com Mouse/Teclado/Formulários/Janela;
  - [x] DOM;
+ - [x] Arrays / Multidimensionais; 
 
 
 
 ---
+
+<div align="center"><h2>Anotações pessoais</h2></div>
+  Ordenação crescente de Arrays com o método <code>.sort()</code>. <br/> 
+  Para que os números contidos no array sejam sequenciados de forma crescente, é necessário passar uma função dentro do método .sort(). <br/>
+  <code>function orderNumbers(a, b){ </code>
+  <code> return a - b; </code>
+  <code> }</code> <br/>
+  Desta forma, os números serão tratados e seguirão a ordem desejada.
+
+  ---
 
 
 <div align="center"><h2>Links Úteis</h2></div>
@@ -64,6 +75,11 @@ Guia para visualizar artigos didáticos e/ou documentações oficiais.
 [W3Schools - DOM Propriedades e Métodos](https://www.w3schools.com/jsref/dom_obj_document.asp);
 
 [W3Schools - DOM Styles](https://www.w3schools.com/jsref/dom_obj_style.asp)
+
+<h4>Arrays</h4>
+
+[W3Schools - Arrays e seus métodos](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+
 
 
 

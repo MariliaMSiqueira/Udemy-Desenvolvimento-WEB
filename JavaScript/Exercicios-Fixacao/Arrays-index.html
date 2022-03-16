@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercício para Fixação - Array</title>
+  <style>
+    body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  </style>
+</head>
+<body>
+  <p>O exercício trata-se de uma validação de elementos adicionados ao input. Caso esteja em branco, será informado que o campo é inválido.</p>
+  <p>Caso o elemento digitado não conste no Array objetos. Sejá adicionado ao fim.</p>
+  <p>Para sequenciados em ordem alfabética, basta clicar no botão "Ordernar".</p>
+  <p>Se for necessário, o input pode ser limpo por intermédio do botão "Limpar".</p>
+  <br>
+  <br>
+  <input type="text" id="display" placeholder="Digite um objeto">
+  <button id="add" onclick="addingContent()">Adicionar</button>
+  <button id="order" onclick="order()">Ordenar</button>
+  <button type="button" id="clear" onclick="clear()">Limpar</button>
+
+  <script>
+     let objetos = ['Teclado', 'Mouse', 'Monitor', 'Ar Condicionado'];
+     //RECUPERANDO VALOR CONTIDO NO INPUT
+     //VALIDAÇÃO DE CONTEÚDO
+     const inputContent = document.getElementById('display');
+     const addButton = document.getElementById('add');
+     function addingContent(){
+       if(inputContent.value.length === 0){
+         document.write('Digite um valor válido');
+         document.write('<br/><br/><button type="button" onclick="refresh()">Retornar</button>')
+       }else{
+        if(inputContent.value === objetos[0] || inputContent.value === objetos[1] || inputContent.value === objetos[2] || inputContent.value === objetos[3] ){
+          console.log('Objeto já existe na lista');
+        }else{
+          inputContent.value = objetos.push(inputContent.value);
+          inputContent.value = '';
+          alert('Objeto adicionado com sucesso! Confira no console');  
+        }
+       }
+     }
+
+     function order(){
+       objetos.sort();
+       alert('Ordenado com sucesso! Confira no console');
+     }
+
+     //F5
+     function refresh(){
+       location.reload();
+     }
+
+     function clear(){
+       inputContent.value = '';
+     }
+
+    //ACIONANDO O BOTÃO COM O PRESSIONAR DO ENTER
+    document.addEventListener('keypress', function(e){
+      if(e.key === 'Enter'){
+        add.click();
+      }
+    })
+  </script>
+</body>
+</html>
