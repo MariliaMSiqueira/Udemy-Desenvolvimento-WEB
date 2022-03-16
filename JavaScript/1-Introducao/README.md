@@ -37,21 +37,21 @@ Adquirindo conhecimento em:
 
 Guia para visualizar artigos didáticos e/ou documentações oficiais.
 
-<div align="center"><h4>Strings</h4></div>
+<h4>Strings</h4>
 
 [W3Schools - Todos os métodos para String em JS](https://www.w3schools.com/jsref/jsref_obj_string.asp);
 
 [DEV Mozilla - Métodos para String em JS (Didático)](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/Useful_string_methods);
 
-<div align="center"><h4>Operações Matemáticas</h4></div>
+<h4>Operações Matemáticas</h4>
 
 [W3Schools - Todos os métodos para operações matemáticas](https://www.w3schools.com/jsref/jsref_obj_math.asp);
 
-<div align="center"><h4>Manipulação de Datas</h4></div>
+<h4>Manipulação de Datas</h4>
 
 [W3Schools - Todos os métodos para manipulação de datas](https://www.w3schools.com/jsref/jsref_obj_date.asp);
 
-<div align="center"><h4>Eventos</h4></div>
+<h4>Eventos</h4>
 
 [Desenvolvimento WEB - Eventos em JS (Didático)](https://desenvolvimentoparaweb.com/javascript/eventos-javascript/);
 
@@ -59,7 +59,7 @@ Guia para visualizar artigos didáticos e/ou documentações oficiais.
 
 [W3Schools - HTML DOM Events](https://www.w3schools.com/jsref/dom_obj_event.asp);
 
-<div align="center"><h4>HTML DOM - Árvore de elementos/Nós</h4></div>
+<h4>HTML DOM - Árvore de elementos/Nós</h4>
 
 [W3Schools - DOM Propriedades e Métodos](https://www.w3schools.com/jsref/dom_obj_document.asp);
 
