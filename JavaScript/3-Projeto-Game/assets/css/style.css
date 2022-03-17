@@ -1,0 +1,59 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.fly-sm {
+  width: 50px;
+  height: 50px;
+}
+
+.fly-md {
+  width: 70px;
+  height: 70px;
+}
+
+.fly-lg {
+  width: 90px;
+  height: 90px;
+}
+
+.side-A {
+  transform: scaleX(1);
+}
+
+.side-B {
+  transform: scaleX(-1);
+}
+
+.display {
+  position: absolute;
+  width: 190px;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 5px;
+  background: #fff;
+  border-top: 1px solid #fff;
+  opacity: .7;
+}
+
+.life {
+  float: left;
+  width: 190px;
+}
+
+.time {
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
