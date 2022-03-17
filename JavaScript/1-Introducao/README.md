@@ -40,7 +40,11 @@ Adquirindo conhecimento em:
   <code>function orderNumbers(a, b){ </code>
   <code> return a - b; </code>
   <code> }</code> <br/>
-  Desta forma, os números serão tratados e seguirão a ordem desejada.
+  Desta forma, os números serão tratados e seguirão a ordem desejada. <br>
+
+
+  <strong>Arguments</strong> são objetos de escopo local do escopo da função. Ele contem uma relação de parâmetros passados para a function. <br>
+  Com arguments é possível recuperar todos os parâmetros passados para uma determinada function atraves do objeto arguments. De forma análoga a um array, arguments expõem os valores e seus respectivos índices.
 
   ---
 
