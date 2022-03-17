@@ -28,6 +28,7 @@ Adquirindo conhecimento em:
  - [x] Eventos com Mouse/Teclado/Formulários/Janela;
  - [x] DOM;
  - [x] Arrays / Multidimensionais; 
+ - [x] Estruturas de repetição/ while() - do while() - for() - for in () - foreach(); 
 
 
 
