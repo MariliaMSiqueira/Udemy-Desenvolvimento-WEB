@@ -9,7 +9,7 @@ function soma(){
     result += arguments[i]
   }
   return result;
-}
+};
 //CONFORME A ADIÇÃO DE PARÂMETROS, A SOMA OCORRERÁ NORMALMENTE. 
-//CASO UMA STRING SERÁ ADICIONADA, SERÁ CONCATENADA AO RESULTADO DA SOMA ANTERIOR.
-console.log(soma(10, 20, 30, 10,))
+//CASO UMA STRING SEJA ADICIONADA, SERÁ CONCATENADA AO RESULTADO DA SOMA ANTERIOR.
+console.log(soma(10, 20, 30, 10,));

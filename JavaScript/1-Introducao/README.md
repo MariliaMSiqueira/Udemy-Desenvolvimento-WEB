@@ -26,9 +26,11 @@ Adquirindo conhecimento em:
  - [x] Funções nativas(atributos/propriedades) para tarefas matemáticas;
  - [x] Funções nativas(atributos/propriedades) para manipular datas (Data UNIX / getTime());
  - [x] Eventos com Mouse/Teclado/Formulários/Janela;
- - [x] DOM;
+ - [x] DOM - Document Objet Model;
  - [x] Arrays / Multidimensionais; 
- - [x] Estruturas de repetição/ while() - do while() - for() - for in () - foreach(); 
+ - [x] Estruturas de repetição/ while() - do while() - for() - for in () - foreach();
+ - [x] Tratamento de erros/ try - catch - finally - throw;
+ - [x] BOM - Browser Object Model;
 
 
 
@@ -79,13 +81,15 @@ Guia para visualizar artigos didáticos e/ou documentações oficiais.
 
 [W3Schools - DOM Propriedades e Métodos](https://www.w3schools.com/jsref/dom_obj_document.asp);
 
-[W3Schools - DOM Styles](https://www.w3schools.com/jsref/dom_obj_style.asp)
+[W3Schools - DOM Styles](https://www.w3schools.com/jsref/dom_obj_style.asp);
 
 <h4>Arrays</h4>
 
-[W3Schools - Arrays e seus métodos](https://www.w3schools.com/jsref/jsref_obj_array.asp)
+[W3Schools - Arrays e seus métodos](https://www.w3schools.com/jsref/jsref_obj_array.asp);
 
+<h4>Browser Object Model</h4>
 
+[W3Schools - BOM](https://www.w3schools.com/jsref/obj_window.asp);
 
 
 
