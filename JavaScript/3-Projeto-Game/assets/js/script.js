@@ -3,25 +3,36 @@
 let width = 0;
 let height = 0;
 let life = 1;
-let time = 10;
+// CRONÔMETRO
+let time = 20;
+// NÍVEL DIFICULDADE
+let createFlyTime = 1500
+//SELECIONANDO APENAS A PARTIR DO ?
+let lvl = window.location.search
+//REMOVENDO O ?, DEIXANDO SOMENTE O NÍVEL SELECIONADO
+lvl = lvl.replace('?', '')
+// LÓGICA DIFICULDADE
+if(lvl ==='easy'){
+  createFlyTime = 1500
+}else if(lvl === 'medium'){
+  createFlyTime = 1000
+}else if(lvl === 'hard'){
+  createFlyTime = 750
+}
+// CRIAÇÃO DOS MOSQUITOS LEVANDO EM CONSIDERAÇÃO AO NÍVEL SELECIONADO
+let createFly = setInterval(() => {
+  randomPosition()
+}, createFlyTime);
+
 //ESCOPO DA FUNÇÃO
 //INVOCADA NO BODY ONRESIZE
 function getDimensions(){
   width = window.innerWidth;
-  height = window.innerHeight;
-  
+  height = window.innerHeight;  
 };
 
 getDimensions();
 
-
-function startGame(){
-  alert(document.getElementById('level').value)
-}
-
-let createFly = setInterval(() => {
-  randomPosition()
-}, 2000);
 //CRONÔMETRO VITÓRIA
 let stopwatch = setInterval(() => { 
   time -= 1
@@ -35,12 +46,9 @@ let stopwatch = setInterval(() => {
 }, 1000)
 
 
-
 //DEFININDO POSIÇÕES RANDÔMICAS
-//ARREDONDANDO PARA BAIXO
-//-90 = MARGEM PARA O TAMANHO DA IMAGEM MOSQUITO
-function randomPosition() {
 
+function randomPosition() {
   //REMOVER O MOSQUITO ANTERIOR (CASO EXISTA)
   //SE O ELEMENTO ANTERIOR NÃO EXISTE, NÃO ENTRARÁ NESTA LÓGICA
   //SE O USUÁRIO CLICAR, O ELEMENTO NÃO EXISTIRÁ.
@@ -55,9 +63,9 @@ function randomPosition() {
     document.getElementById('life' + life).src="assets/img/coracao_vazio.png"
     life++
     };
-    
-  };
-
+  }
+  //ARREDONDANDO PARA BAIXO FLOOR
+  //-90 = MARGEM PARA O TAMANHO DA IMAGEM MOSQUITO
   let positionX = Math.floor(Math.random() * width) - 90;
   let positionY = Math.floor(Math.random() * height) - 90;
   // OPERADOR TERNÁRIO
@@ -65,9 +73,7 @@ function randomPosition() {
   positionX = positionX < 0 ? 0 : positionX;
   positionY = positionY < 0 ? 0 : positionY;
 
-
   //CRIANDO ELEMENTOS HTML
-
   let flyImg = document.createElement('img');
   flyImg.src = 'assets/img/mosca.png';
   flyImg.className = randomFlySize() + ' ' +randomSide();
@@ -75,6 +81,7 @@ function randomPosition() {
   flyImg.style.top = positionY + 'px';
   flyImg.style.position = 'absolute';
   flyImg.id = 'fly';
+
   //THIS FAZ REFERENCIA AO PROPRIO ELEMENTO HTML IMG
   flyImg.onclick = function(){
     this.remove();
@@ -121,7 +128,6 @@ function randomSide(){
     return 'side-B'
   };
 };
-
 
 
 
