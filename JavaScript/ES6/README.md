@@ -15,6 +15,8 @@ Adquirindo conhecimento em:
  - [x] Arrow Function;
  - [x] Function anônima associada a uma variável;
  - [x] Orientação a Objetos; 
+ - [x] Pilares da OO;
+ - [x] Classes e Objetos;
 
 
 ---
