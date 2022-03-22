@@ -14,6 +14,9 @@ Adquirindo conhecimento em:
  - [x] Parâmetros default(assinatura) / undefined(invocação);
  - [x] Arrow Function;
  - [x] Function anônima associada a uma variável;
+ - [x] Orientação a Objetos; 
+ - [x] Pilares da OO;
+ - [x] Classes e Objetos;
 
 
 ---
