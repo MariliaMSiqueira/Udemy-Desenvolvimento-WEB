@@ -17,6 +17,8 @@ Adquirindo conhecimento em:
  - [x] Orientação a Objetos; 
  - [x] Pilares da OO;
  - [x] Classes e Objetos;
+ - [x] Operador super;
+ - [x] Objetos Literais / estáticos;  
 
 
 ---
