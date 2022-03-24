@@ -18,7 +18,8 @@ Adquirindo conhecimento em:
  - [x] Pilares da OO;
  - [x] Classes e Objetos;
  - [x] Operador super;
- - [x] Objetos Literais / estáticos;  
+ - [x] Objetos Literais / estáticos;
+ - [x] Funções construtoras;  
 
 
 ---
